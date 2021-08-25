@@ -1,0 +1,9 @@
+Config Cuda darknet
+
+Change Makefile to active cuda, cunnd and opencv
+https://github.com/AlexeyAB/darknet#pre-trained-models
+
+system config to enable cuda compile (make) 
+# DARKNET
+export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
