@@ -1,5 +1,10 @@
 Config Cuda darknet
 
+pip install yolov4
+
+sudo apt-get install python3-opencv
+sudo apt install libopencv-dev
+
 Change Makefile to active cuda, cunnd and opencv
 https://github.com/AlexeyAB/darknet#pre-trained-models
 
